@@ -1,0 +1,173 @@
+@media screen and (max-width: 1000px) {
+    i.bi-code-slash {
+        display: none;
+    }
+
+    nav {
+        flex-direction: column;
+
+    }
+
+    ul.res-navbar {
+        display: none;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.819);
+        transition: 0.7s ease-out;
+
+    }
+
+    ul li a.nav-items.active::after {
+        display: none;
+    }
+
+    li a:hover::after {
+        width: 10%;
+    }
+
+    i.bi-search {
+        display: none;
+    }
+
+    nav.res-nav {
+        justify-content: space-around;
+    }
+
+    i.active-res {
+        display: block;
+    }
+
+    ul li a.nav-items {
+        padding: 10px 0px;
+    }
+
+    ul li {
+        padding: 30px 0px;
+    }
+
+    #my-self {
+        height: 55vh;
+    }
+
+    section#first-section {
+        height: 80vh;
+
+    }
+
+    h3.heading {
+        padding-left: 25px;
+    }
+    .about-image{
+        width: 350px;
+        height: 50vh;
+    }
+    .about-me{
+        padding-left: 40px;
+    }
+    .about-me-heading{
+        font-size: 33px;
+    }
+    .about-me-para{
+        font-size: 15px;
+        max-width: 400px;
+    }
+    .footer{
+        padding: 50px;
+    }
+    h1#left-heading{
+        font-size: 25px;
+    }
+    p#left-footer-para{
+        font-size: 15px;
+        max-width: 300px;
+    }
+    button#click-footer{
+        font-size: 14px;
+        padding: 7px 12px;
+    }
+    label{
+        font-size: 16px;
+        padding-right: 10px;
+    }
+    i.icons-footer{
+        font-size: 20px;
+    }
+    .right-side{
+        padding-top: 40px;
+    }
+   
+
+}
+
+@media screen and (max-width: 480px) {
+    h3.heading {
+        font-size: 30px;
+    }
+    section#first-section {
+        height: 77vh;
+
+    }
+    h3.heading span {
+        font-size: 15px;
+
+    }
+
+    h1#myself-heading {
+        font-size: 40px;
+    }
+
+    p.para-myself {
+        font-size: 16px;
+        padding: 0px 25px;
+    }
+
+    button.btn-myself {
+        font-size: 14px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    li a:hover::after {
+        width: 30%;
+    }
+    .about-content{
+        flex-direction: column;
+    }
+    .about-me-heading{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    .about-me-para{
+        max-width: 320px;
+    }
+    .about-image{
+        width: 300px;
+        height: 50vh;
+    }
+    input{
+        width: 80%;
+    }
+    .name{
+        text-align: center;
+    }
+    .email{
+        text-align: center;
+    }
+    .footer{
+        flex-direction: column;
+         padding: 25px 15px;
+        justify-content: center;
+        text-align: center;
+    }
+    p#left-footer-para{
+      max-width: 330px;
+    }
+    button#click-footer{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+
+    
+}
